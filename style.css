@@ -104,3 +104,34 @@ footer {
     background-color: rgb(216, 216, 216);
 }
 
+.Herf_navbar{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    opacity: 100%;
+    position: relative;
+    transition: .7s all ease;
+    padding: 0px 10px;
+    text-transform: uppercase;
+
+  }
+
+.Herf_navbar::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 112%;
+    height: 0px;
+    width: 0%;
+    background: white;
+    transition: 0.4s;
+    opacity: 0;
+    transform: translate(-50%,-50%);
+}
+
+.Herf_navbar:hover::before{
+    height: 3px;
+    width: 100%;
+    transform: translate(-50%,-50%);
+    opacity: 1;
+  }
