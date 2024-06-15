@@ -60,8 +60,8 @@ footer {
     border-radius: 5px;
     width: 165px;
     height: 20px;
-        border:2px solid #33333379; 
-        transition: .5s;
+    border:2px solid #33333379; 
+    transition: .5s;
 }
 
 .Type_text:focus{
@@ -72,11 +72,35 @@ footer {
     box-shadow: 0 0 20px 0 #333333d0;
     transition: 1s;
     outline: 3px;
+    background-color: rgb(165, 165, 165);
     background-color: rgb(216, 216, 216);
 }
 
 
+
 #Meassage_1{
     transform: translateY(8px);
+}
+
+.Butoon_contact_ME{
+    border-radius: 4px;
+    height: 28px;
+    border:2px solid #33333379; 
+    color: #33333379;
+    transform: translateY(-2px);
+    width: 80px;
+    transition: .2s;
+}
+
+.Butoon_contact_ME:hover{
+    width: 84px;
+    height: 32px;
+    border-radius: 4px;
+    border-color: #333333d0;
+    box-shadow: 0 0 10px 0 #333333d0;
+    transition: 1s;
+    outline: 3px;
+    background-color: rgb(165, 165, 165);
+    background-color: rgb(216, 216, 216);
 }
 
